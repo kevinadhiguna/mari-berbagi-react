@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Platform,
 } from 'react-native';
-import ImagePicker from 'react-native-image-picker';
+//import ImagePicker from 'react-native-image-picker';
 import { Actions } from 'react-native-router-flux';
 import {
   Button,
@@ -63,6 +63,7 @@ export default class AddStuff extends Component {
     Actions.pop();
   };
 
+  
   chooseImage = () => {
     let options = {
       title: 'Select Image',
@@ -97,6 +98,7 @@ export default class AddStuff extends Component {
       }
     });
   };
+  
 
   renderFileUri() {
     if (this.state.picture.fileUri) {
