@@ -8,3 +8,5 @@ How to Start
 5. jangan lupa colokin HP nya
 6. `react-native start`
 7. `react-native run android`
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/mari-berbagi-react)](https://github.com/kevinadhiguna)
